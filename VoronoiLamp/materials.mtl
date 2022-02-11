@@ -1,0 +1,52 @@
+newmtl redop
+Ka 1 0 0
+Kd 1 0 0
+Ks 1 0 0
+d 0.5
+
+newmtl red
+Ka 1 0 0
+Kd 1 0 0
+Ks 1 0 0
+
+newmtl blue
+Ka 0 0 1
+Kd 0 0 1
+Ks 0 0 1
+
+newmtl white
+Ka 1 1 1
+Kd 1 1 1
+Ks 1 1 1
+
+newmtl grey
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.6 0.6 0.6
+
+newmtl greyop
+Ka 0.6 0.6 0.6
+Kd 0.6 0.6 0.6
+Ks 0.6 0.6 0.6
+d 0.4
+
+newmtl yellow
+Ka 0.5 0.5 0
+Kd 0.5 0.5 0
+Ks 0.5 0.5 0
+
+newmtl yellowop
+Ka 0.5 0.5 0
+Kd 0.5 0.5 0
+Ks 0.5 0.5 0
+d 0.4
+
+newmtl green
+Ka 0 1 0
+Kd 0 1 0
+Ks 0 1 0
+
+newmtl darkgrey
+Ka 0.2 0.2 0.2
+Kd 0.2 0.2 0.2
+Ks 0.2 0.2 0.2

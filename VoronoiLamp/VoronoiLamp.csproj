@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
+    <ProjectGuid>{30A14A4F-28FA-498A-B0C5-550BE17C2F1C}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>VoronoiLamp</RootNamespace>
+    <AssemblyName>VoronoiLamp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|anycpu' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Numerics.Vectors" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\packages\MathNet.Numerics.4.15.0\lib\net461\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Triangle.cs" />
+    <Compile Include="PolygonSheet.cs" />
+    <Compile Include="Environment.cs" />
+    <Compile Include="I3dObject.cs" />
+    <Compile Include="VoronoiSeed.cs" />
+    <Compile Include="VoronoiSurface.cs" />
+    <Compile Include="VoronoiGenerator.cs" />
+    <Compile Include="VoronoiEdge.cs" />
+    <Compile Include="PolygonTest.cs" />
+    <Compile Include="Vector3Util.cs" />
+    <Compile Include="PolyUtil.cs" />
+    <Compile Include="Side.cs" />
+    <Compile Include="Sphere.cs" />
+    <Compile Include="VoronoiGenerator2.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="TestIntersect.cs" />
+    <Compile Include="HoleSheet.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="materials.mtl" />
+    <None Include="mesh.obj" />
+    <None Include="packages.config" />
+    <None Include="config002.json" />
+    <None Include="config001.json" />
+    <None Include="config004.json" />
+    <None Include="config003.json" />
+    <None Include="config.json" />
+    <None Include="config005.json" />
+    <None Include="config006.json" />
+    <None Include="config009.json" />
+    <None Include="config %28Kopie%29.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

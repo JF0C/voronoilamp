@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoronoiLamp", "VoronoiLamp\VoronoiLamp.csproj", "{30A14A4F-28FA-498A-B0C5-550BE17C2F1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30A14A4F-28FA-498A-B0C5-550BE17C2F1C}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{30A14A4F-28FA-498A-B0C5-550BE17C2F1C}.Debug|anycpu.Build.0 = Debug|anycpu
+		{30A14A4F-28FA-498A-B0C5-550BE17C2F1C}.Release|anycpu.ActiveCfg = Release|anycpu
+		{30A14A4F-28FA-498A-B0C5-550BE17C2F1C}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EF1423F-A935-4AED-8ADF-556861E07DE8}
+	EndGlobalSection
+EndGlobal
