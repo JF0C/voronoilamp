@@ -49,7 +49,7 @@ namespace VoronoiLamp
                 { v2.X, v2.Y, v2.Z },
                 { Normal.X, Normal.Y, Normal.Z }
             });
-            var s = m.Solve(Vector<double>.Build.Dense(new double[] { v.X, v.Y, v.Z }));
+            var s = m.Solve(MathNet.Numerics.LinearAlgebra.Vector<double>.Build.Dense(new double[] { v.X, v.Y, v.Z }));
             var d = s[0] + s[1];
             return d < 1 && s[0] > 0 && s[1] > 0;
         }
