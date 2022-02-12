@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # voronoilamp
 Generates a 3D-printable lamp inspired by the voronoi pattern.  
 This is what it looks like:  
